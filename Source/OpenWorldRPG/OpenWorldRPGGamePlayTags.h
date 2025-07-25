@@ -1,0 +1,34 @@
+// Fill out your copyright notice in the Description page of Project Settings.
+
+#pragma once
+
+#include "NativeGameplayTags.h"
+
+namespace OpenWorldRPGGamePlayTags
+{
+
+	 UE_DECLARE_GAMEPLAY_TAG_EXTERN(InitState_DataAvailable);
+	 UE_DECLARE_GAMEPLAY_TAG_EXTERN(InitState_DataInitialized);
+	 UE_DECLARE_GAMEPLAY_TAG_EXTERN(DAMAGE_DAMAGE_OVER_TIME);
+
+	// status effects
+	 UE_DECLARE_GAMEPLAY_TAG_EXTERN(STATUS_PoisonBuildUp);
+	 UE_DECLARE_GAMEPLAY_TAG_EXTERN(STATUS_PoisonDecay);
+	 UE_DECLARE_GAMEPLAY_TAG_EXTERN(STATUS_Poisoned);
+
+	 UE_DECLARE_GAMEPLAY_TAG_EXTERN(STATUS_FrostBuildUp);
+     UE_DECLARE_GAMEPLAY_TAG_EXTERN(STATUS_FrostDecay);
+     UE_DECLARE_GAMEPLAY_TAG_EXTERN(STATUS_Frostbite);
+
+	UE_DECLARE_GAMEPLAY_TAG_EXTERN(ABILITY_Backstep);
+	UE_DECLARE_GAMEPLAY_TAG_EXTERN(ABILITY_Backstep);
+	UE_DECLARE_GAMEPLAY_TAG_EXTERN(State_Backstep);
+	UE_DECLARE_GAMEPLAY_TAG_EXTERN(ABILITY_Movement);
+	UE_DECLARE_GAMEPLAY_TAG_EXTERN(State_Invulnerable);
+
+	UE_DECLARE_GAMEPLAY_TAG_EXTERN(Data_Fragment_Amount);
+
+	UE_DECLARE_GAMEPLAY_TAG_EXTERN(Event_Character_Death);
+
+	UE_DECLARE_GAMEPLAY_TAG_EXTERN(Ability_Use_HealingHerb);
+}
